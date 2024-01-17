@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HolidaySnap/static/css/main.03f3cc72.css",
+    "main.js": "/HolidaySnap/static/js/main.6dcad662.js",
+    "static/media/style6.jpg": "/HolidaySnap/static/media/style6.5b65ee2ea6ecc3a3b642.jpg",
+    "static/media/style3.jpg": "/HolidaySnap/static/media/style3.aef64bed6fbafad17995.jpg",
+    "static/media/style10.jpg": "/HolidaySnap/static/media/style10.e20e4c76f1c8763a2073.jpg",
+    "static/media/style7.jpg": "/HolidaySnap/static/media/style7.624fe235e8845491841a.jpg",
+    "static/media/style1.jpg": "/HolidaySnap/static/media/style1.b7dda88d6dd295b3c5db.jpg",
+    "static/media/style9.jpg": "/HolidaySnap/static/media/style9.7778c0a2e815b57e98ba.jpg",
+    "static/media/style5.jpg": "/HolidaySnap/static/media/style5.99a523e30f2fa41d9742.jpg",
+    "static/media/style2.jpg": "/HolidaySnap/static/media/style2.b156b3523a165ffb8fda.jpg",
+    "index.html": "/HolidaySnap/index.html",
+    "main.03f3cc72.css.map": "/HolidaySnap/static/css/main.03f3cc72.css.map",
+    "main.6dcad662.js.map": "/HolidaySnap/static/js/main.6dcad662.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03f3cc72.css",
+    "static/js/main.6dcad662.js"
+  ]
+}
