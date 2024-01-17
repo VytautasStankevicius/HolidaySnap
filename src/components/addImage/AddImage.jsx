@@ -33,13 +33,13 @@ const AddImage = () => {
       return
     }
     service.addImage({ ...items, uid: user.uid });
-    navigate('/gallery');
+    navigate('/');
     setShowModal(false);
   };
 
   const handleClose = () => {
     setShowModal(false);
-    navigate('/gallery');
+    navigate('/');
   };
 
   return (
@@ -51,12 +51,12 @@ const AddImage = () => {
         <div className="card-body">
           <form className="form" onSubmit={handleSaveChanges}>
             <div className="mb-3">
-              <label htmlFor="input">Nuotraukos komentaras</label>
+              <label htmlFor="input">Title</label>
               <input className="form-control" type="input"
                 name="description" onChange={handleChange} value={items.description}/>
             </div>
             <div className="mb-3">
-              <label htmlFor="input">Nuotraukos URL</label>
+              <label htmlFor="input">Link to picture</label>
               <input className="form-control" type="input"
                 name="url" onChange={handleChange} value={items.url}/>
             </div>

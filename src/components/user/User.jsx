@@ -13,7 +13,7 @@ const User = ()=>{
 
     useEffect(()=>{
         if(loading) return;
-        if (!user) navigate('/gallery')
+        if (!user) navigate('/login')
         userServices.getUserData(user, setUserData)
     }, [user, loading])
 

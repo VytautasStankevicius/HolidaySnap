@@ -45,14 +45,14 @@ const GalleryMain = () => {
     return (
         <>
         <GalleryModal selectedStyle={selectedStyle} onStyleClick={changeStyle} />
-            <Container className="gallery">
+            <Container className={"gallery __content" + selectedStyle}>
                 <Row>
-                    <Col sm={12}>
+                    <Col sm={12} className="gallery__title">
                         <h2>Your snaps</h2>
                     </Col>
-                    <div>
+                    <div className="gallery__holder">
                     <GalleryAdd/>
-                        <Col>
+                        <Col className={`gallery__content${selectedStyle}`}>
                             {images.map(image => (
                                 <GalleryPhoto key={image.id} image={image} onDelete={handleDelete} />
                                 ))}
